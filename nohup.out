@@ -1,0 +1,3 @@
+ifdown: interface eth0 not configured
+Deconfiguring network interfaces...done.
+Configuring network interfaces...done.
