@@ -1,0 +1,22 @@
+# /etc/modules: kernel modules to load at boot time.
+#
+# This file contains the names of kernel modules that should be loaded
+# at boot time, one per line. Lines beginning with "#" are ignored.
+# Parameters can be specified after the module name.
+
+lp
+ip_conntrack
+modprobe ip_tables
+modprobe ip_conntrack
+modprobe ip_conntrack_ftp
+modprobe ip_conntrack_irc
+modprobe iptable_nat
+modprobe ip_nat_ftp
+modprobe xt_TPROXY
+modprobe xt_socket
+modprobe xt_mark
+modprobe nf_nat
+modprobe nf_conntrack_ipv4
+modprobe nf_conntrack
+modprobe nf_defrag_ipv4
+modprobe ipt_REDIRECT
